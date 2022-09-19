@@ -5,6 +5,7 @@ name: release
   push: 
       branches:
       - main
+      - master
 env:
   APP_NAME: 'nimjson'
   NIM_VERSION: '1.6.4'
