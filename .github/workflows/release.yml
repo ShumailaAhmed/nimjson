@@ -2,10 +2,9 @@
 name: release
 
 "on":
-  push:
-    tags:
-      - 'v*.*.*'
-
+  push: 
+      branches:
+      - main
 env:
   APP_NAME: 'nimjson'
   NIM_VERSION: '1.6.4'
